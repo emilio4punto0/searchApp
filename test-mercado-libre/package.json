@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/.git"
+    "url": "https://github.com/emilio4punto0/searchApp.git"
   },
   "keywords": [],
   "author": "Emilio Padilla",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/e100io/typescript-template-app/issues"
+    "url": "https://github.com/emilio4punto0/searchApp.git"
   }
 }
