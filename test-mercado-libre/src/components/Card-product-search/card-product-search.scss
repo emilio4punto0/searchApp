@@ -1,0 +1,31 @@
+#cardProductSearch{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+    .card-product-search{
+        width: 80%;
+        margin: 5px;
+        background-color: #fff;
+        display: flex;
+        padding: 18px;
+        &__img{
+            
+               margin: 16px;
+               width: 180px;
+               cursor: pointer;
+               &img{
+             background-color: black; 
+               }
+        }
+        &__content-center{
+            min-width: 570px;
+            max-width: 600px;
+            cursor: pointer;
+            &__city{
+                min-width: 100px;
+            }
+        }
+        
+    }
+}
