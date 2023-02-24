@@ -13,7 +13,7 @@ Las tecnologías utilizadas fueron Sass, javascript, React, Node y Express.
 ## Tecnologías
 ***
 Tecnologías y versiones usadas: 
-* [Node](https://example.com): Version 18.14.0 
+* [Node](https://example.com): Version 16.17.0
 * [Express](https://example.com): Version 4.18.2 
 * [React](https://example.com): Version 18.2.0
 * [Sass](https://example.com): Version 1.58.1
