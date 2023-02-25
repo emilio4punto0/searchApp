@@ -1,0 +1,15 @@
+.pdp-container{
+    &__firts-block{
+        &__product-details{
+            &__condition{
+                font-size: $small;
+            }
+            &__product-name{
+                font-size: $medium;
+            }
+            &__price{
+                font-size: $large;
+            }
+        }
+    }
+}

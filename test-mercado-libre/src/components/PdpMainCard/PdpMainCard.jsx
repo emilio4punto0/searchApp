@@ -17,25 +17,16 @@ function PdpMainCard({
             <img src={pictures[2].url}></img>
           </div>
           <div className="pdp-container__firts-block__product-details">
-            <div
-              className="pdp-container__firts-block__product-details__condition"
-              style={{ fontSize: "14px" }}
-            >
+            <div className="pdp-container__firts-block__product-details__condition">
               {condition == "new"
                 ? "Nuevo" + " - " + sold_quantity + " vendidos"
                 : " Usado"}
             </div>
 
-            <div
-              className="pdp-container__firts-block__product-details__product-name"
-              style={{ fontSize: "24px" }}
-            >
+            <div className="pdp-container__firts-block__product-details__product-name">
               {title}
             </div>
-            <div
-              className="pdp-container__firts-block__product-details__price"
-              style={{ fontSize: "46px" }}
-            >
+            <div className="pdp-container__firts-block__product-details__price">
               ${price}
             </div>
             <button className="pdp-container__firts-block__product-details__buy-button">

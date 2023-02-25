@@ -9,23 +9,31 @@
         background-color: #fff;
         display: flex;
         padding: 18px;
-        &__img{
-            
+        &__img{    
                margin: 16px;
                width: 180px;
                cursor: pointer;
                &img{
-             background-color: black; 
+            
                }
         }
         &__content-center{
             min-width: 570px;
             max-width: 600px;
             cursor: pointer;
-            &__city{
+            
+            &__price{
+               font-size: $medium;
+               
+            }
+            &__product-name{
+                font-size: $medium-s;
+            }      
+        }
+        &__city{
+
+                font-size: $small-s;
                 min-width: 100px;
             }
-        }
-        
     }
 }

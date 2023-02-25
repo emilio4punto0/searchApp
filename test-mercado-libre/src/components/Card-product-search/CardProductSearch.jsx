@@ -27,22 +27,14 @@ function CardProductSearch({
           <img src={pictures}></img>
         </div>
         <div className="card-product-search__content-center">
-          <div
-            className="card-product-search__content-center__price"
-            style={{ fontSize: "24px" }}
-          >
+          <div className="card-product-search__content-center__price">
             ${free_shipping ? price + " Llega gratis mañana" : price}
           </div>
-          <p
-            className="card-product-search__content-center__product-name"
-            style={{ fontSize: "18px" }}
-          >
+          <p className="card-product-search__content-center__product-name">
             {title}
           </p>
         </div>
-        <div className="card-product-search__city" style={{ fontSize: "12px" }}>
-          {city_name}
-        </div>
+        <div className="card-product-search__city">{city_name}</div>
       </div>
     </>
   );
